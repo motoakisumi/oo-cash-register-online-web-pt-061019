@@ -9,8 +9,6 @@ class CashRegister
     cash_register_with_discount = number
   end
 
-
-  end
 end
 
     
