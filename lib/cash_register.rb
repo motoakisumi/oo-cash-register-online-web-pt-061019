@@ -18,6 +18,7 @@ class CashRegister
     
     while count >0
       @@items << item
+      @@prices << price
       count -= 1
     end
   end
