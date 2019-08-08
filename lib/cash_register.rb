@@ -17,6 +17,8 @@ class CashRegister
     if discount != 0
       @total = @total * (100 - @discount)/100
       p "After the discount, the total comes to $#{@total}."
+    elsif discount == 0
+      
   end
   
 end
