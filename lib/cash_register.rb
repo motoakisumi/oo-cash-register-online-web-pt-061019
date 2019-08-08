@@ -42,8 +42,8 @@ class CashRegister
     if count >0
       @total = @total - @@prices[-1]
       count -= 1
-    end
-    @total = 0.0
+    elsif count ==0
+      @total = 0.0
   end
 end
 
