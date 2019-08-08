@@ -6,13 +6,7 @@ class CashRegister
     @total = 0
     @discount = discount
   end
-  
-  def total
-    self.total = @total
-    @total
-  end
     
-  
   def add_item(item, price, quantity = 1)
     @item = item
     @price = price
