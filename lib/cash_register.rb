@@ -23,6 +23,10 @@ class CashRegister
     elsif discount == 0
       p "There is no discount to apply."
     end
+  
+  def items
+    @@items
+  end
       
   end
   
