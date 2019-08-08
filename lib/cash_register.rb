@@ -11,7 +11,6 @@ class CashRegister
     @item = item
     @total = @total * change
     @total = @total * quantity
-  
   end
 
 end
