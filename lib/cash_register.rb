@@ -6,7 +6,7 @@ class CashRegister
     @total = discount
   
   def discount(number)
-    self.total = self.total * ()
+
 
   end
 end
