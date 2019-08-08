@@ -38,8 +38,10 @@ class CashRegister
   end
   
   def void_last_transaction
-    
-    @total = @total - @@prices[-1]
+    count = @@items.count
+    while count >0
+      @total = @total - @@prices[-1]
+      count -= 1
   end
 end
 
