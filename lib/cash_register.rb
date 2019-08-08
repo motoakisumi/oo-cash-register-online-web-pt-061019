@@ -41,10 +41,6 @@ class CashRegister
     count = @@items.count
     if count >0
       @total = @total - @@prices[-1]
-    
-    
-
-
     end
   end
 end
