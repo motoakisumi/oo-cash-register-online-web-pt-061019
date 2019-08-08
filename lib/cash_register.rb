@@ -44,6 +44,7 @@ class CashRegister
       count -= 1
     elsif count ==0
       @total = 0.0
+    end
   end
 end
 
